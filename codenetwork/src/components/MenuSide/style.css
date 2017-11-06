@@ -1,0 +1,20 @@
+.content-sidemenu{
+    height: 100vH;
+    background-color: #545656;
+    width:250px;
+}
+li{
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    color: #999999;
+    padding: 15px; 
+    cursor: pointer;
+    padding-left: 45px;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    background-color: #444747;
+}

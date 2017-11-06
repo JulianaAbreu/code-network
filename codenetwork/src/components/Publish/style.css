@@ -1,0 +1,27 @@
+.form-newpublish{
+    display: flex;
+    flex-direction: column;
+}
+.content-publish{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 80px;
+}
+.field-publish{
+    border-radius: 5px;
+    border: 1px solid #CDD2D4;
+    resize: none;
+    outline: none;
+    height: 90px;
+    text-indent: 5px;
+}
+.btn-post{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid #399799;
+    background-color: #399799;
+    color: #fff;
+    
+}

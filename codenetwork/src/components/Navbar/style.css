@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    background-color: #333333;
+    padding: 15px;
+}
+
+.content-nav-left{
+    display: flex;
+    flex-grow: 1.5;
+    margin-left: 25px;
+}
+.content-nav-right{
+    margin-right: 15px;
+    color: #fff
+}
