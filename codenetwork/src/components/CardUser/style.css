@@ -1,0 +1,10 @@
+.data-user{
+    display: flex;
+    background-color: #EEEEEE;
+    width: 756px;     
+    padding: 20px;
+    border-radius: 5px;
+}
+.grow-data{
+    flex-grow: 1;
+}

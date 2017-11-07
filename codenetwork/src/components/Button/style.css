@@ -1,0 +1,10 @@
+.like-post{
+    display: flex;   
+}
+.btn-like{
+    text-decoration: none;    
+    height: 20px;
+}
+.red{
+    color: red;
+}

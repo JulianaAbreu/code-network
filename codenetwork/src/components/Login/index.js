@@ -8,10 +8,7 @@ constructor(){
 
 }
 
-
-    render() {
-
-     
+    render() {     
         return (
             <div className='content-page-login'>
                 <section className='content-login'>
@@ -29,11 +26,10 @@ constructor(){
                                 <button className='btn-login'>Enter</button>
                             </form>
                             <div className='create-account'>
-                                <a href='#' onClick={this.handleOnCLickRegister}><p>Criar conta</p></a>
+                                <a href='../Register/' onClick={this.handleOnCLickRegister}><p>Criar conta</p></a>
                             </div>
                         </div>
                     </div>
-
                 </section>
             </div>
         )

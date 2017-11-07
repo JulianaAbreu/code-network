@@ -1,0 +1,13 @@
+.data-comment{
+    display: flex;
+}
+.icon-profile{
+    margin-top: 15px;
+}
+.comments-input{
+    background-color: #fff;
+    width: 700px;;
+}
+.data-comment{
+    background-color: #E6E6E6;
+}

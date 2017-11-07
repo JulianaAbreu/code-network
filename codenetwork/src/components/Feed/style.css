@@ -1,3 +1,10 @@
 .content-flex{
     display: flex;
 }
+.content-feed{
+margin-left: 160px;
+
+}
+.publication{
+   margin-top: 80px;
+}

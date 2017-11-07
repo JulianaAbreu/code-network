@@ -1,29 +1,25 @@
 import React, { Component } from 'react';
+import CardUser from '../CardUser/index';
+import Like from '../Like/index'
+import CardComment from '../CardComment/index'
+import CommentsPost from '../CommentsPost/index'
+import './style.css'
 
 export default class Post extends Component {
     render() {
         return (
-            <section>
-                <div>
-                    <span>#</span>
-                    <span>Nome do usuário</span>
-                </div>
-                <div className='publication-text'>
-                    <p>Lorem ipsum dolor sit amet</p>
-                    <div className='content-like'>
-                        <span className='ic-like'></span>
-                    </div>
-                </div>
-
-                
-                <div>
+            <section className='content-publication'>
+                <div className='publication'>
                     <div>
-                        <span>Icon</span>
+                        <CardUser />
                     </div>
-                    <h3>Nome do usuário</h3>
-                    <p>Lorem Ipsum dolor sit amet, consectetur</p>
+                    <div className='post-card' contentEditable='true'>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                    <div className='content-comments'>
+                        <CardComment />
+                    </div>
                 </div>
-                
             </section>
         )
     }

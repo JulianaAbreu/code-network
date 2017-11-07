@@ -27,6 +27,8 @@ export default class RegisterUser extends Component {
                             </form>
                            
                         </div>
+                        <a href='../Login/'>Voltar</a>
+
                     </div>
 
                 </section>

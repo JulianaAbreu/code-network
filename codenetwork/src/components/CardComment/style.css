@@ -1,0 +1,11 @@
+.flex-dataUser{
+display: flex;
+}
+
+.data-comment{
+    padding: 5px;
+}
+.comments{
+    margin-left: 15px;
+    padding: 2px;
+}

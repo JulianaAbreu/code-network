@@ -18,3 +18,7 @@ ul{
 li:hover{
     background-color: #444747;
 }
+a{
+   list-style: none;
+   color: #A9A9A9;
+}
